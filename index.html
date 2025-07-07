@@ -1,275 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Alexander Frontend Developer</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="icons/bootstrap-icons.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/splide.min.css" />
-    <link rel="stylesheet" href="css/splide-core.min.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/android-chrome-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/android-chrome-512x512.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/apple-touch-icon.png" />`
-    <link rel="manifest" href="/site.webmanifest" />
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-xl">
-        <a class="navbar-brand" href="#">Alexander</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alexander Frontend Developer</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="icons/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/splide.min.css" />
+  <link rel="stylesheet" href="css/splide-core.min.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/android-chrome-512x512.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/apple-touch-icon.png" />`
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body class="overflow-x-hidden">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-xl">
+      <a class="navbar-brand" href="#">Alexander</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section bg-1 text-white py-5">
+    <div class="container-xl text-center">
+      <div data-aos="zoom-in" class="pt-4">
+        <img src="img/IMG_20250414_235549_788.webp" class="profile-pic mb-4" alt="Profile Picture" />
+      </div>
+      <h1 class="display-4">Hi, I'm Iskander</h1>
+      <p class="lead">I'm a Frontend Developer</p>
+      <p class="lead">
+        I create beautiful and functional websites that provide a great user
+        experience.
+      </p>
+      <div class="mt-4">
+        <button class="btn btn-primary" id="InstagramButton">
+          Follow Me On Instagram
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto me-5">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
       </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section bg-1 text-white py-5">
-      <div class="container-xl text-center">
-        <div data-aos="zoom-in" class="pt-4">
-          <img
-            src="img/IMG_20250414_235549_788.webp"
-            class="profile-pic mb-4"
-            alt="Profile Picture"
-          />
-        </div>
-        <h1 class="display-4">Hi, I'm Iskander</h1>
-        <p class="lead">I'm a Frontend Developer</p>
-        <p class="lead">
-          I create beautiful and functional websites that provide a great user
-          experience.
-        </p>
-        <div class="mt-4">
-          <button class="btn btn-primary" id="InstagramButton">
-            Follow Me On Instagram
-          </button>
-        </div>
-        <div class="mt-3">
-          <button class="btn btn-warning" id="TelegramButton">
-            Follow My Telegram Channel
-          </button>
-        </div>
-        <div class="mt-3">
-          <button class="btn btn-secondary" id="GitHubButton">GitHub</button>
-        </div>
+      <div class="mt-3">
+        <button class="btn btn-warning" id="TelegramButton">
+          Follow My Telegram Channel
+        </button>
       </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section py-5 bg-light">
-      <div class="container-xl">
-        <h2 class="section-title">About Me</h2>
-        <p class="text-center" data-aos="zoom-out-left">
-          Hello! My name is Iskander. I'm a passionate and curious learner who
-          loves creating websites, exploring technology, and improving myself
-          every day. I’ve been learning HTML, CSS, JavaScript and Python and I’m
-          currently diving into Laravel, PHP and MySQL. My dream is to become a
-          professional developer and build things that people around the world
-          can use and enjoy. Outside of coding, I love working out, traveling,
-          and taking photos of meaningful moments. I'm also working on building
-          a great future for myself in Moscow!
-        </p>
+      <div class="mt-3">
+        <button class="btn btn-secondary" id="GitHubButton">GitHub</button>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section py-5">
-      <div class="container-xl">
-        <h2 class="section-title">Services</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-card text-center">
-              <i class="bi-palette-fill"></i>
-              <h3>Logo Designing</h3>
-              <p>
-                I create unique and memorable logos that represent your brand's
-                identity and values.
-              </p>
-            </div>
+  <!-- About Section -->
+  <section id="about" class="about-section py-5 bg-light">
+    <div class="container-xl">
+      <h2 class="section-title">About Me</h2>
+      <p class="text-center" data-aos="zoom-out-left">
+        Hello! My name is Iskander. I'm a passionate and curious learner who
+        loves creating websites, exploring technology, and improving myself
+        every day. I’ve been learning HTML, CSS, JavaScript and Python and I’m
+        currently diving into Laravel, PHP and MySQL. My dream is to become a
+        professional developer and build things that people around the world
+        can use and enjoy. Outside of coding, I love working out, traveling,
+        and taking photos of meaningful moments. I'm also working on building
+        a great future for myself in Moscow!
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section py-5">
+    <div class="container-xl">
+      <h2 class="section-title">Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-card text-center">
+            <i class="bi-palette-fill h3"></i>
+            <h3>Logo Designing</h3>
+            <p>
+              I create unique and memorable logos that represent your brand's
+              identity and values.
+            </p>
           </div>
-          <div class="col-md-4">
-            <div class="service-card text-center">
-              <i class="bi-code-slash"></i>
-              <h3>Frontend Development</h3>
-              <p>
-                I develop responsive and interactive web applications using
-                modern frontend technologies.
-              </p>
-            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card text-center">
+            <i class="bi-code-slash h3"></i>
+            <h3>Frontend Development</h3>
+            <p>
+              I develop responsive and interactive web applications using
+              modern frontend technologies.
+            </p>
           </div>
-          <div class="col-md-4">
-            <div class="service-card text-center">
-              <i class="bi-people-fill"></i>
-              <h3>User Research</h3>
-              <p>
-                I conduct user research to understand user needs and
-                preferences, ensuring that my designs are user-centered.
-              </p>
-            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card text-center">
+            <i class="bi-people-fill h3"></i>
+            <h3>User Research</h3>
+            <p>
+              I conduct user research to understand user needs and
+              preferences, ensuring that my designs are user-centered.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Work Section -->
-    <section id="work" class="work-section bg-secondary-subtle py-5">
-      <div class="container-xl">
-        <h2 class="section-title">My Work</h2>
-        <div class="row">
-          <section class="splide" aria-label="Basic Structure Example">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <img
-                    src="img/index copy 2.jpg"
-                    alt="Project screenshot"
-                    class="img-fluid"
-                  />
-                </li>
-                <li class="splide__slide">
-                  <img
-                    src="img/index copy.jpg"
-                    alt="Project screenshot"
-                    class="img-fluid"
-                  />
-                </li>
-                <li class="splide__slide">
-                  <img
-                    src="img/index.jpg"
-                    alt="Project screenshot"
-                    class="img-fluid"
-                  />
-                </li>
-                <li class="splide__slide">
-                  <img
-                    src="img/index.png"
-                    alt="Project screenshot"
-                    class="img-fluid"
-                  />
-                </li>
-              </ul>
-            </div>
-          </section>
+  <!-- Work Section -->
+  <section id="work" class="work-section bg-secondary-subtle py-5">
+    <div class="container-xl">
+      <h2 class="section-title">My Work</h2>
+      <div class="row">
+        <section class="splide" aria-label="Basic Structure Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="img/works/215FD300-3018-4E55-8914-1EDA18FDFAD0_1_201_a.jpeg" alt="#" class="img-fluid">
+              </li>
+              <li class="splide__slide">
+                <img src="img/works/44987307-DEC7-4DE1-A97B-72E06939B6BD_1_201_a.jpeg" alt="#" class="img-fluid">
+              </li>
+              <li class="splide__slide">
+                <img src="img/works/59339855-FD7E-406C-95A7-BC123D454E9E_1_201_a.jpeg" alt="#" class="img-fluid">
+              </li>
+              <li class="splide__slide">
+                <img src="img/works/493BA598-C4F4-4D11-85C3-097F4771AA41_1_201_a.jpeg" alt="#" class="img-fluid">
+              </li>
+              <li class="splide__slide">
+                <img src="img/works/60F71A68-321A-40C4-A48D-144CAC71D0B7_1_201_a.jpeg" alt="#" class="img-fluid">
+              </li>
+              <li class="splide__slide">
+                <img src="img/works/6EAE6F00-88A4-4625-9272-5236718ECC9F_1_201_a.jpeg" alt="#" class="img-fluid">
+              </li>
+              <li class="splide__slide">
+                <img src="img/works/86D5B61E-986C-42ED-870E-9329802E9DF8_1_201_a.jpeg" alt="#" class="img-fluid">
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section pt-3 pb-5">
+    <div class="container-xl">
+      <h2 class="section-title" data-aos="flip-left">Contact Me</h2>
+
+      <form action="send_mail.php" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label" data-aos="flip-left">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required />
         </div>
+        <div class="mb-3">
+          <label for="email" class="form-label" data-aos="flip-left">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label" data-aos="flip-left">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" data-aos="flip-left">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer-section">
+    <div class="container-fluid bg-dark text-white text-center py-3">
+      <p>© 2023 Alexander. All rights reserved.</p>
+      <div class="pt-2 text-secondary h3">
+        <a href="https://www.instagram.com/is__a_l_e_x_a_n_d_e_r?igsh=amx5Mzd0cnE2NWRq"> <i class="
+          bi-instagram mx-5"></i></a>
+        <a href="sopyyewiskander@gmail.com"> <i class="bi-envelope mx-5"></i></a>
+        <a href="https://github.com/Iskander656"> <i class="bi-github mx-5"></i></a>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section pt-3 pb-5">
-      <div class="container-xl">
-        <h2 class="section-title" data-aos="flip-left">Contact Me</h2>
-
-        <form action="send_mail.php" method="POST">
-          <div class="mb-3">
-            <label for="name" class="form-label" data-aos="flip-left"
-              >Name</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              name="name"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label" data-aos="flip-left"
-              >Email</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label" data-aos="flip-left"
-              >Message</label
-            >
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              rows="3"
-              required
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" data-aos="flip-left">
-            Send Message
-          </button>
-        </form>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="footer" class="footer-section">
-      <div class="container-fluid bg-dark text-white text-center py-3">
-        <p>© 2023 Alexander. All rights reserved.</p>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/splide.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      AOS.init();
-      var splide = new Splide(".splide", {
-        type: "loop",
-        perPage: 1,
-        perMove: 1,
-        autoplay: true,
-        interval: 2000,
-        pauseOnHover: false,
-        pagination: false,
-        arrows: false,
-        breakpoints: {
-          640: {
-            perPage: 1,
-            gap: "1rem",
-          },
+  <!-- Scripts -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/splide.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init();
+    var splide = new Splide(".splide", {
+      type: "loop",
+      perPage: 1,
+      perMove: 1,
+      autoplay: true,
+      interval: 2000,
+      pauseOnHover: false,
+      pagination: false,
+      arrows: false,
+      breakpoints: {
+        640: {
+          perPage: 1,
+          gap: "1rem",
         },
-        focus: "center",
-        heightRatio: 0.5,
-        cover: true,
-        paginationDirection: "ttb",
-        rewind: true,
-      });
-      splide.mount();
-    </script>
-  </body>
+      },
+      focus: "center",
+      heightRatio: 0.5,
+      cover: true,
+      paginationDirection: "ttb",
+      rewind: true,
+    });
+    splide.mount();
+  </script>
+</body>
+
 </html>
